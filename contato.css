@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.fundo {
+    min-height: 1100px;
+
+    background-image: url(Design\ sem\ nome\ \(7\).png);
+}
+
+nav {
+padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 90px;
+    /* min-width: 700px; */
+}
+@media(max-width: 768px){
+    nav{
+        margin-top: -40px;
+    }
+}
+
+nav .menu-logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+nav .menu-logo img {
+    max-height: 60px;
+}
+
+@media(max-width: 768px) {
+    nav .menu-logo img {
+        margin-top: 5px;
+        max-height: 50px;
+        max-width: 50px;
+    }
+}
+
+nav .menu-logo p {
+    color: white;
+
+    font-size: 4vw;
+}
+@media(max-width: 768px){
+    nav .menu-logo p{
+        max-width: 30px;
+    }
+}
+
+nav .menu-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 20px;
+    font-size: 1.5vw;
+}
+/* @media(max-width: 768px){
+    nav .menu-links {
+        margin-top: 60px;
+       flex-direction: column;
+    }
+} */
+
+
+nav .menu-links a {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+@media(max-width: 768px){
+    nav .menu-links a{
+        font-size: 8.5px;
+    }
+}
+
+nav .menu-links a.contato {
+    color: #03AFFA;
+}
+
+nav .menu-links a:hover {
+    color: #03AFFA;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    animation: aparecer 2s ease-in-out;
+}
+.conteudo div.contatos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 40px;
+   
+}
+.conteudo div.contatos div a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo div.contatos div.ordem1 div img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.conteudo div.contatos div.ordem2 div img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+@media(max-width: 768px){
+    .conteudo div.contatos div.ordem1 div img{
+        max-width: 100px;
+    }
+    .conteudo div.contatos div.ordem2 div img{
+        max-width: 100px;
+    }
+}
+
+.conteudo div div a h1{
+    color: antiquewhite;
+}
+.conteudo div.text{
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: column;
+   margin-left: 550px;  
+}
+@media (max-width:768px){
+    .conteudo div.text{
+        margin-left: 0px;
+    }
+}
+.conteudo div.text p{
+    display: flex;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 46px;
+    max-width: 530px;
+
+   
+    padding: 30px;
+    color: #CFCFCF;
+}
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: 90px;
+    gap: 30px;
+    
+}
+
+.img{
+    max-width: 90px;
+    margin-top: 2px;
+
+}
+#html{
+min-width: 110px;
+}
+@media(max-width: 768px){
+    .imgs{
+     background-color: #03AFFA;
+     margin-right: 0;
+     
+     }
+     .img{
+         max-width: 60px;
+         padding: 0px;
+     }
+     #html{
+         min-width: 80px;
+         padding: 0px;
+     }
+ }
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.cat a, .instagram a, .twitter a, .Email a, .linkdin a, .telegram a {
+    cursor: pointer;
+  text-decoration: none;
+}

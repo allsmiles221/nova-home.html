@@ -1,0 +1,319 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #131411;
+  
+}
+@media(max-width:768px){
+  body{
+display: block;
+min-width: 500px;
+  }
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 90px;
+  min-width: 700px;
+}
+
+nav .navlogo {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+
+  color: white;
+  font-size: 4vw;
+}
+
+nav .navlogo img {
+  max-height: 50px;
+}
+
+nav .navlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  font-size: 1.5vw; 
+ 
+}
+@media (max-width:768px) {
+  nav .navlinks a{
+font-size: 20px;
+
+  }
+}
+
+
+nav .navlinks a {
+  color: white;
+  text-decoration: none;
+}
+nav .navlinks a.home{
+  color: #03AFFA;
+
+}
+
+nav .navlinks a:hover {
+  color: #03AFFA;
+
+  text-decoration: none;
+}
+main{
+  animation: aparecer 2s ease-in-out;
+}
+
+.ceu {
+  display: flex;
+  gap: 20px;
+  min-width: 700px;
+
+  background-color: black;
+ 
+
+}
+
+.ceu img {
+  max-width: 46%;
+}
+
+.ceu .estrela-direita {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ceu-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.ceu-1 .nome {
+  margin-top: 30px;
+
+  color: white;
+
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.ceu-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 105px;
+}
+
+.ceu-2 .luaeassinatura {
+  display: flex;
+  gap: 30px;
+  align-items: end;
+}
+
+.ceu-2 #lua {
+  max-height: 130px;
+}
+
+.ceu-2 #assinatura {
+  max-height: 190px;
+}
+
+.ceu-2 .estrela-3 {
+  max-height: 37%;
+}
+
+.blocos {
+  margin-top: -240px;
+
+  color: black;
+
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+@media(max-width:700px){
+ .blocos{
+margin-left: 200px;
+
+  }
+}
+
+.blocos img {
+  max-height: 80px;
+}
+
+.blocos h1 {
+  font-size: 25px;
+}
+
+.blocos p {
+  margin-top: 20px;
+  font-size: 20px;
+
+  background-color: none;
+}
+
+.blocos .bloco_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.blocos .bloco_item_logo {
+  background-color: #03AFFA;
+  padding: 8px;
+}
+
+.blocos .bloco_item_logo_2 {
+  background-color: #ffff;
+  padding: 8px;
+}
+
+.blocos .bloco_item_content_1 {
+  background-color: #03AFFA;
+  border: 10px solid white;
+  color: #222221;
+  min-height: 300px;
+  max-width: 300px;
+
+  padding: 14px;
+}
+
+.blocos .bloco_item_content_2 {
+  background-color: #222221;
+  border: 10px solid #03AFFA;
+  color: #ffff;
+  min-height: 300px;
+  max-width: 300px;
+
+  padding: 14px;
+}
+
+.blocos .bloco_item_content_3 {
+  background-color: #222221;
+  border: 10px solid #03AFFA;
+  color: #ffff;
+
+  min-height: 300px;
+  max-width: 300px;
+
+  padding: 14px;
+}
+
+
+.habilidades {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+
+
+}
+.habilidades .qualidades{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+margin-right: 300px;
+}
+
+.habilidades h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.habilidades strong {
+  color: #03AFFA;
+}
+
+.habilidades .habilidades-content {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  max-width: 200px;
+}
+
+.habilidades .habilidades-item {
+  font-size: 23px;
+  border: unset;
+  color: #ffff;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background:  #131411;
+  border: 6px solid #03AFFA;
+}
+
+.habilidades .habilidades-item:hover {
+  font-size: 23px;
+  border: unset;
+  color: #ffff;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background: #03AFFA;
+  border: 6px solid #03AFFA;
+}
+/* .habilidades .habilidades-item div.grafc img.grafc{
+display: flex;
+max-width: 200;
+} */
+ #grafc{
+  display: flex;
+  box-sizing:border-box;
+  height: 500px;
+width: 640px;
+border-radius: 0px;
+border-top: 0px;
+box-shadow: #03AFFA;
+border-color: red;
+
+
+}
+
+.footer {
+  background-color: black;
+
+  color: white;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 50px;
+  min-width: 700px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+@keyframes aparecer{
+  from {
+opacity: 0;
+  }
+  to {
+opacity: 1;
+  }
+}

@@ -1,0 +1,272 @@
+/* body {
+  box-sizing: border-box;
+  margin: 0%;
+  position: absolute;
+  width: 1920px;
+  height: 1020px;
+  font-size: 12px;
+
+  background-image: url("Design sem nome (7).png");
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+} */
+
+.bloco1 #fundo {
+  position: absolute;
+  height: 1110px;
+  width: 1890px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  background: url(Design\ sem\ nome\ \(7\).png);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+}
+
+.menu div {
+  padding: 20px;
+  height: 80px;
+}
+
+.menu div {
+
+  margin: 0%;
+  position: absolute;
+  height: 80px;
+  width: 1558px;
+  left: 000px;
+  top: 0px;
+  border-radius: 0px;
+
+
+  float: left;
+}
+
+.menu li {
+  display: inline;
+
+}
+
+.menu li a {
+  position: relative;
+  height: 40px;
+  width: 130px;
+  left: 900px;
+  top: 10px;
+  border-radius: undefinedpx;
+  display: inline;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 50px;
+  padding: 30px;
+
+  color: #fcfcfc;
+}
+
+.menu li a.contato {
+  left: 860px;
+}
+
+.menu li a.op {
+  color: #03AFFA;
+}
+
+.menu li a:hover {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 50px;
+  color: #03AFFA;
+  /* border: 1px solid rgba(5, 174, 250, 0.6); */
+  display: inline-block;
+  padding: 30PX;
+}
+
+#all {
+
+  position: absolute;
+  padding: auto;
+  height: 80px;
+  left: 125px;
+  height: 55px;
+  top: -12px;
+  border-radius: undefinedpx;
+  font-family: 'Abhaya Libre ExtraBold';
+  font-style: normal;
+  /* font-weight: 800; */
+  font-size: 48px;
+  /* line-height: 57px; */
+
+  color: #FFFFFF;
+}
+
+#lua {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bloco1 p {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+
+  color: #CFCFCF;
+}
+
+.bloco1 p#text1 {
+  position: absolute;
+  height: 592px;
+  width: 681px;
+  left: 20px;
+  top: 170px;
+  border-radius: undefinedpx;
+  text-align:left ;
+  color: #CFCFCF;
+  z-index: 1;
+}
+.bloco1 p#text2 {
+  position: absolute;
+  height: 592px;
+  width: 681px;
+  left: 1200px;
+  top: 170px;
+  border-radius: undefinedpx;
+  text-align:left ;
+  color: #CFCFCF;
+  z-index: 1;
+}
+.bloco1 button.button1{
+  position: absolute;
+  height: 132px;
+  width: 470px;
+  left: 1353px;
+  top: 796px;
+  border-radius: 30px;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+
+ 
+background: #ffffffad;
+border-radius: 30px;
+}
+.bloco1 button.button2{
+  position: absolute;
+  height: 132px;
+  width: 470px;
+  left: 30px;
+  top: 796px;
+  border-radius: 30px;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  
+  background: #ffffffad;
+border-radius: 30px;
+}
+
+.bloco1 button a{
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.bloco1 button:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: rgba(255, 255, 255, 0.486);
+  transform: scale(0);
+  transition: transform 1.5s ease-out;
+  border-radius: 50%;
+  z-index: -1;
+}
+.bloco1 button:hover:before {
+  transform: scale(1);
+}
+.bloco1 button:hover{
+  opacity: 1.5s;
+  background-color: #00b3ff;
+  box-shadow: 0 0 10px 3px #ffffff7c;
+
+}
+
+
+.bloco1 button:active {
+  transform: scale(1.1);
+}
+
+.bloco1 button {
+  transition: all 0.3s ease-in-out;
+}
+.bloco1 img#py{
+  position: absolute;
+  height: 90px;
+  width: 160px;
+  left: 1276px;
+  top: 980px;
+  border-radius: 0px;
+  
+
+background: url(3.png);
+}
+.bloco1 img#js{
+  position: absolute;
+  height: 90px;
+  width:  160px;
+  left: 1405px;
+  top:980px;
+  border-radius: 0px;
+  
+
+background: url(11.png);
+}
+.bloco1 img#html{
+  position: absolute;
+  height: 118px;
+  width: 180px;
+  left: 1530px;
+  top: 972px;
+  border-radius: 0px;
+  
+
+background: url(9.png);
+}
+.bloco1 img#css{
+  position: absolute;
+  height: 110px;
+  width:  160px;
+  left: 1660px;
+  top: 980px;
+  border-radius: 0px;
+  
+
+background: url(10.png);
+}
